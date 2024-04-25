@@ -5,3 +5,4 @@ numpy==1.22.0
 requests==2.26.0
 scikit-learn==1.0.2
 tensorflow==2.7.0
+setuptools>=60.9.3
