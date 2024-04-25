@@ -1,9 +1,9 @@
 Flask==2.0.3
 Flask-Cors==3.0.10
 nltk==3.6.5
-numpy
+numpy==1.26.4
 requests==2.26.0
-scikit-learn==1.0.2
+scikit-learn
 tensorflow==2.7.0
 setuptools
 six
