@@ -7,6 +7,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+import nltk
+nltk.download('stopwords')
 stop_words = set(stopwords.words("english"))
 lemmatizer= WordNetLemmatizer()
 
