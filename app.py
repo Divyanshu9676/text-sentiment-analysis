@@ -1,14 +1,11 @@
 import pickle
-import re
 import numpy as np
 from flask import Flask, request, render_template
 from flask_cors import CORS
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.preprocessing.text import Tokenizer
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from sklearn.preprocessing import LabelEncoder
 stop_words = set(stopwords.words("english"))
 lemmatizer= WordNetLemmatizer()
 
