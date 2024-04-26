@@ -1,6 +1,6 @@
 nltk~=3.6.5
 numpy~=1.26.2
 flask~=3.0.0
-tensorflow==2.16.1
+tensorflow-cpu~=2.15.0
 requests~=2.31.0
 flask-cors~=3.0.10
