@@ -5,6 +5,7 @@ from flask import Flask, request, render_template
 from flask_cors import CORS
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.layers import LSTM
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import nltk
