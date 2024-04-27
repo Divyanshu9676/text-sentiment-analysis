@@ -9,9 +9,6 @@ from tensorflow.keras.layers import LSTM
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
 stop_words = set(stopwords.words("english"))
 lemmatizer= WordNetLemmatizer()
 
